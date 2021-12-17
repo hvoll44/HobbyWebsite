@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/scopedcss/bundle/" />
+</StaticWebAssets>

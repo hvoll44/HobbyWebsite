@@ -1,0 +1,41 @@
+/* /Pages/ScoreSheet.razor.rz.scp.css */
+body[b-pvs08zd9ct] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+tr[b-pvs08zd9ct] {
+    border-bottom: 1px solid dodgerblue;
+}
+
+th[b-pvs08zd9ct] {
+    text-align: center;
+}
+
+.header[b-pvs08zd9ct] {
+}
+
+.player-cell[b-pvs08zd9ct] {
+    width: 4rem;
+    border: none;
+}
+
+.player[b-pvs08zd9ct] {
+    width: 4.5rem;
+    border: none;
+}
+
+.subtext[b-pvs08zd9ct] {
+    font-size: small;
+}
+
+.score-cell[b-pvs08zd9ct] {
+    width: 2.5rem;
+}
+
+.buttons[b-pvs08zd9ct] {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}

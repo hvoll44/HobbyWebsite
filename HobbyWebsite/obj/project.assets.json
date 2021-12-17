@@ -1642,11 +1642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hansvoll/Source/HobbyWebsite/HobbyWebsite/HobbyWebsite.csproj",
+      "projectUniqueName": "/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/HobbyWebsite.csproj",
       "projectName": "HobbyWebsite",
-      "projectPath": "/Users/hansvoll/Source/HobbyWebsite/HobbyWebsite/HobbyWebsite.csproj",
+      "projectPath": "/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/HobbyWebsite.csproj",
       "packagesPath": "/Users/hansvoll/.nuget/packages/",
-      "outputPath": "/Users/hansvoll/Source/HobbyWebsite/HobbyWebsite/obj/",
+      "outputPath": "/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hansvoll/.config/NuGet/NuGet.Config"
@@ -1707,7 +1707,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }
