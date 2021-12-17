@@ -172,7 +172,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/_Imports.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/Pages/ScoreSheet.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/blazor/unlinked.output
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/7hhxGEt7Mf5gsybszg289ye-yoNCoEY6xdokAMr_FTo=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -223,13 +222,11 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/2Ba8oq7qM5atGZ-BGQws2y5juuHCHsYLPRppDgkMDMU=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/blazor/blazor.boot.json
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/TECCCV8gMTLwyQXLPCPZxTheDnyWe7ImAD4rIoCwxx8=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/HobbyWebsite.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Text.Json.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Runtime.CompilerServices.Unsafe.dll.gz
@@ -353,3 +350,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.csproj.CopyComplete
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.pdb
+/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/hCIi_jbZvsHH94W73pyLMybtZ3ssWdy-BxTJIhAB4Vc=.hash
+/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/3_q0O0BXaqZ-m8cQH4Wv56tterWslIBuue-u7t0r-q0=.hash
+/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/UHgKW3lUFE0vRvnWb-9-xWmivxqx-VrFHFnFSOtSbow=.hash

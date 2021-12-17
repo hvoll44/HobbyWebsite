@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{4F305758-F8F9-499F-B3B2-4A5E9C2DAEAB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/ScoreSheet.razor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/App.razor">
     <Files>
-      <File FileName="HobbyWebsite/Pages/Index.razor" Line="3" Column="39" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Pages/Index.razor" Line="3" Column="12" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor" Line="67" Column="14" />
       <File FileName="HobbyWebsite/Shared/MainLayout.razor" Line="1" Column="1" />
       <File FileName="HobbyWebsite/Shared/NavMenu.razor" Line="3" Column="7" />
-      <File FileName="HobbyWebsite/_Imports.razor" Line="10" Column="1" />
+      <File FileName="HobbyWebsite/_Imports.razor" />
       <File FileName="HobbyWebsite/Pages/ScoreSheet.razor.cs" Line="71" Column="22" />
-      <File FileName="HobbyWebsite/Models/Player.cs" Line="3" Column="23" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor.css" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Models/Player.cs" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor.css" Line="41" Column="1" />
       <File FileName="HobbyWebsite/Shared/SurveyPrompt.razor" Line="17" Column="1" />
+      <File FileName="HobbyWebsite/App.razor" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +20,10 @@
             <Node name="HobbyWebsite" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="ScoreSheet.razor" expanded="True">
-                  <Node name="ScoreSheet.razor.cs" selected="True" />
-                </Node>
+                <Node name="ScoreSheet.razor" expanded="True" />
               </Node>
               <Node name="Shared" expanded="True" />
+              <Node name="App.razor" selected="True" />
             </Node>
           </Node>
         </State>

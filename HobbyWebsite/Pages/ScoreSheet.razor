@@ -1,112 +1,112 @@
 ﻿@inject IJSRuntime JSRuntime
 
-<style>
-    body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
 
-    tr {
-        border-bottom: 1px solid dodgerblue;
-    }
+        tr {
+            border-bottom: 1px solid dodgerblue;
+        }
 
-    th {
-        text-align: center;
-    }
+        th {
+            text-align: center;
+        }
 
-    .header {
-    }
+        .header {
+        }
 
-    .player-cell {
-        width: 4rem;
-        border: none;
-    }
+        .player-cell {
+            width: 4rem;
+            border: none;
+        }
 
-    .player {
-        width: 4.5rem;
-        border: none;
-    }
+        .player {
+            width: 4.5rem;
+            border: none;
+        }
 
-    .subtext {
-        font-size: small;
-        margin-left: 4px;
-    }
+        .subtext {
+            font-size: small;
+            margin-left: 4px;
+        }
 
-    .score-cell {
-        width: 2.5rem;
-    }
+        .score-cell {
+            width: 2.5rem;
+        }
 
-    .buttons {
-        margin: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        gap: 10px;
-    }
+        .buttons {
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 10px;
+        }
 
-    .inline-button {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
+        .inline-button {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
 
-    .delete-icon {
-        color: red;
-        margin: 5px 5px 0 0;
-    }
-</style>
+        .delete-icon {
+            color: red;
+            margin: 5px 5px 0 0;
+        }
+    </style>
 
-<table>
-    <thead>
-        <tr>
-            <th class="header"></th>
-            @for (int round = 1; round <= _rounds; round++)
-            {
-                <th>@round</th>
-            }
-        </tr>
-    </thead>
-    <tbody>
-        @for (int p = 0; p < _players.Count; p++)
-        {
-            var p1 = p;
-
+    <table>
+        <thead>
             <tr>
-                <td>
-                    <div class="inline-button">
-                        <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(p1)"></span>
-                        <div class="player-cell" @onclick="() => OnPlayerBoxClicked((p1 + 1).ToString())">
-                            <div>
-                                <input @bind="@_players[p1].Name"
-                                       @bind:event="oninput"
-                                       @onchange="OnChangedAsync"
-                                       class="player"
-                                       id="@(p1 + 1)" />
-                            </div>
-                            <div class="subtext">
-                                Total: @_players[p].Scores.Sum()
-                            </div>
-                        </div>
-                    </div>
-                </td>
-
-                @for (int s = 0; s < _players[p].Scores.Count; s++)
+                <th class="header"></th>
+                @for (int round = 1; round <= _rounds; round++)
                 {
-                    var s1 = s;
-
-                    <td score-cell>
-                        <input @bind="@_players[p1].Scores[s1]"
-                               @bind:event="oninput"
-                               @onchange="OnChangedAsync"
-                               class="score-cell" />
-                    </td>
+                    <th>@round</th>
                 }
             </tr>
-        }
-    </tbody>
-</table>
-<div class="buttons">
-    <button class="btn btn-primary" @onclick="AddPlayerAsync">Add Player</button>
-    <button class="btn btn-secondary" @onclick="AddRoundAsync">Add Round</button>
-    <button class="btn btn-danger" @onclick="ClearAsync">Clear</button>
-</div>
+        </thead>
+        <tbody>
+            @for (int p = 0; p < _players.Count; p++)
+            {
+                var p1 = p;
+
+                <tr>
+                    <td>
+                        <div class="inline-button">
+                            <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(p1)"></span>
+                            <div class="player-cell" @onclick="() => OnPlayerBoxClicked((p1 + 1).ToString())">
+                                <div>
+                                    <input @bind="@_players[p1].Name"
+                                           @bind:event="oninput"
+                                           @onchange="OnChangedAsync"
+                                           class="player"
+                                           id="@(p1 + 1)" />
+                                </div>
+                                <div class="subtext">
+                                    Total: @_players[p].Scores.Sum()
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+
+                    @for (int s = 0; s < _players[p].Scores.Count; s++)
+                    {
+                        var s1 = s;
+
+                        <td score-cell>
+                            <input @bind="@_players[p1].Scores[s1]"
+                                   @bind:event="oninput"
+                                   @onchange="OnChangedAsync"
+                                   class="score-cell" />
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="buttons">
+        <button class="btn btn-primary" @onclick="AddPlayerAsync">Add Player</button>
+        <button class="btn btn-secondary" @onclick="AddRoundAsync">Add Round</button>
+        <button class="btn btn-danger" @onclick="ClearAsync">Clear</button>
+    </div>
