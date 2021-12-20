@@ -25,6 +25,7 @@ th {
 
 .subtext {
     font-size: small;
+    margin-left: 4px;
 }
 
 .score-cell {
@@ -37,4 +38,16 @@ th {
     flex-direction: row;
     justify-content: flex-start;
     gap: 10px;
+}
+
+.inline-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.delete-icon {
+    color: red;
+    margin: 5px 5px 0 0;
 }

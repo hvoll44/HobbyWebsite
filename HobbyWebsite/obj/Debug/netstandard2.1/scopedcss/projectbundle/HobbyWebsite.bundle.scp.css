@@ -28,6 +28,7 @@ th[b-pvs08zd9ct] {
 
 .subtext[b-pvs08zd9ct] {
     font-size: small;
+    margin-left: 4px;
 }
 
 .score-cell[b-pvs08zd9ct] {
@@ -40,4 +41,16 @@ th[b-pvs08zd9ct] {
     flex-direction: row;
     justify-content: flex-start;
     gap: 10px;
+}
+
+.inline-button[b-pvs08zd9ct] {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.delete-icon[b-pvs08zd9ct] {
+    color: red;
+    margin: 5px 5px 0 0;
 }
