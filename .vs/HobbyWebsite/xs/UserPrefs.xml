@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{4F305758-F8F9-499F-B3B2-4A5E9C2DAEAB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/ScoreSheet.razor.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/ScoreSheet.razor">
     <Files>
-      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor" Line="59" Column="1" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor.css" Line="48" Column="2" NotebookId="1" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor" Line="2" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,9 +10,7 @@
             <Node name="HobbyWebsite" expanded="True">
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="ScoreSheet.razor" expanded="True">
-                  <Node name="ScoreSheet.razor.css" selected="True" />
-                </Node>
+                <Node name="ScoreSheet.razor" expanded="True" selected="True" />
               </Node>
               <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True">
@@ -28,7 +25,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HobbyWebsite PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.HobbyWebsite PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
