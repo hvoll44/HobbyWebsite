@@ -5,7 +5,7 @@ namespace HobbyWebsite.Models
     public class Player
     {
         public string Name { get; set; }
-        public List<int?> Scores { get; set; } = new List<int?>();
+        public List<double?> Scores { get; set; } = new List<double?>();
 
         public Player(string name, int rounds)
         {
