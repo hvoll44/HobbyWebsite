@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/H3RhZQpc2USNG0GpPMyNz3hVwgk94HMW8m7RspwvBr0=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/xN-NMynA7JqtIIQdgi5Fs9vffZGkw-RWclJx5JOk4DE=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/HobbyWebsite.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/HobbyWebsite.dll.br"
     },
@@ -151,7 +151,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Text.Encodings.Web.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Bs1Wrmh4ex9dTEIT0yCRF52N-wOmsBDt457BHr0-ssM=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.Net.Http.Json.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Net.Http.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/WmhXWWzy-w3N0RiPmLJQxZcmPGQAdtfI9IK_YaOY0Yc=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
@@ -181,7 +186,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/-vKsvGE9k1NEQ-ksgwI4AdJfiIvMV-JffMAY2-Jumd8=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
@@ -196,12 +201,12 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/UB78QWNHi5M3Bf37iSAdQKoqFSV97_cVnVgSyeyAWao=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/5F0XIdZVF9ZMfT2b4KdHsZIFfZ9VFwKhjz3Ko4VY6aQ=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
     },
@@ -241,12 +246,17 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.FileProviders.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/GDZQCBtVHfrZZ6fL95lGoinLeUWLjQShLbfESwO7mrc=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/3LvHyYLBhkwNGnWCaqQtSWI9oTxATwLS7xBBZ5F0oJY=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.Diagnostics.DiagnosticSource.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
     },
@@ -256,7 +266,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/yJ6lBLHpvFdKXSsLuyoZLN4xq4Rad9kkOlS-h5HP6ho=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/8mtl8tzO5n4cQy8n8b9-kq58o7u3U0K3bzrHDayJt8U=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/HobbyWebsite.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/HobbyWebsite.pdb.br"
     },
@@ -281,7 +291,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/nKLfwDZiLfABU4LUTz8QtonNUVp9xJVBn0Y6JTHbk08=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/LTLyzyo5Z_3ZmjtDylSq1fO8q_QP1Z5uwioCZ9LnEUQ=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     }
