@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace HobbyWebsite.Pages
 {
-    public partial class ApiTest
+    public partial class CatFactsComponent
     {
         private RandomCatFact _json = new RandomCatFact();
 

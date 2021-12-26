@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace HobbyWebsite.Pages
 {
-    public partial class ScoreSheet
+    public partial class ScoreSheetComponent
     {
         private List<Player> _players = new List<Player>();
         private int _rounds;
@@ -79,11 +79,6 @@ namespace HobbyWebsite.Pages
         private async Task OnChangedAsync()
         {
             await Save();
-        }
-
-        private async Task OnPlayerBoxClicked(string id)
-        {
-            await Focus(id);
         }
 
         private async Task Focus(string elementId)

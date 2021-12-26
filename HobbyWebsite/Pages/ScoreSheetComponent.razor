@@ -13,33 +13,33 @@
     <tbody>
         @for (int p = 0; p < _players.Count; p++)
         {
-            var p1 = p;
+            var playerIndex = p;
 
             <tr>
                 <td>
                     <div class="inline-button">
-                        <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(p1)"></span>
-                        <div class="player-cell" @onclick="() => OnPlayerBoxClicked((p1 + 1).ToString())">
+                        <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(playerIndex)"></span>
+                        <div class="player-cell">
                             <div>
-                                <input @bind="@_players[p1].Name"
+                                <input @bind="@_players[playerIndex].Name"
                                        @bind:event="oninput"
                                        @onchange="OnChangedAsync"
                                        class="player"
-                                       id="@(p1 + 1)" />
+                                       id="@(playerIndex + 1)" />
                             </div>
                             <div class="subtext">
-                                Total: @_players[p].Scores.Sum()
+                                Total: @_players[playerIndex].Scores.Sum()
                             </div>
                         </div>
                     </div>
                 </td>
 
-                @for (int s = 0; s < _players[p].Scores.Count; s++)
+                @for (int s = 0; s < _players[playerIndex].Scores.Count; s++)
                 {
-                    var s1 = s;
+                    var scoreIndex = s;
 
                     <td>
-                        <input @bind="@_players[p1].Scores[s1]"
+                        <input @bind="@_players[playerIndex].Scores[scoreIndex]"
                                @bind:event="oninput"
                                @onchange="OnChangedAsync"
                                class="score-cell" />

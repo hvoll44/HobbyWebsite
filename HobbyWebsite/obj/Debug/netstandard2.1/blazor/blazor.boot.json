@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "HobbyWebsite.dll": "sha256-xN\/NMynA7JqtIIQdgi5Fs9vffZGkw\/RWclJx5JOk4DE=",
+      "HobbyWebsite.dll": "sha256-3n2Bxkl\/igr5mMlTbBteXtgObwwsgForXL1ktUYHFPk=",
       "System.Text.Json.dll": "sha256-HQeN+ZfHAERO+uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-kL\/omZDwqByAi+lPdMeDmr3XjHcn4RVb+LmZ4mut1Yc=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "HobbyWebsite.pdb": "sha256-8mtl8tzO5n4cQy8n8b9\/kq58o7u3U0K3bzrHDayJt8U="
+      "HobbyWebsite.pdb": "sha256-7SZo\/YDhVPVpGzsbYQU2ZQ9CzUqtb\/sSNRpR6fMxyRQ="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",
