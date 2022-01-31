@@ -31,7 +31,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Threading.Tasks.Extensions.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Numerics.Vectors.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Text.Encodings.Web.dll
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Net.Http.Json.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.AspNetCore.Components.Web.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.AspNetCore.Components.Forms.dll
@@ -91,7 +90,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Threading.Tasks.Extensions.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Numerics.Vectors.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Text.Encodings.Web.dll.gz
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/System.Net.Http.Json.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.AspNetCore.Components.Web.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -161,7 +159,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.csproj.CoreCompileInputs.cache
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.RazorComponent.input.cache
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/RazorDeclaration/App.razor.g.cs
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/RazorDeclaration/Pages/CatFactsComponent.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/RazorDeclaration/Pages/DeleteDialog.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/RazorDeclaration/Pages/ScoreSheetComponent.razor.g.cs
@@ -174,7 +171,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.TagHelpers.output.cache
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.RazorCoreGenerate.cache
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/App.razor.g.cs
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/Pages/CatFactsComponent.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/Pages/DeleteDialog.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/Pages/Index.razor.g.cs
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/Razor/Pages/ScoreSheetComponent.razor.g.cs
@@ -211,7 +207,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/Tqh1Da_iTRQJEZUGAsMNFuZ4hf1PMf13WApRZod_uw4=.hash
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/WmhXWWzy-w3N0RiPmLJQxZcmPGQAdtfI9IK_YaOY0Yc=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/AV8hgKJvxEXM5wtB0rWrbSVD_jqppNW1JXqLoZhO794=.hash
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/PnKO7lUOW7f4kozb_ZYmBIuHDJnrwSZKrFWmCL15nHk=.hash
@@ -270,7 +265,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Threading.Tasks.Extensions.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Numerics.Vectors.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Text.Encodings.Web.dll.gz
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Net.Http.Json.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Components.Web.dll.gz
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Components.Forms.dll.gz
@@ -330,7 +324,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Threading.Tasks.Extensions.dll.br
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Numerics.Vectors.dll.br
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Text.Encodings.Web.dll.br
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/System.Net.Http.Json.dll.br
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Components.Web.dll.br
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/compressed/_framework/_bin/Microsoft.AspNetCore.Components.Forms.dll.br
@@ -368,6 +361,6 @@
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.dll
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.pdb
 /Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/HobbyWebsite.csproj.AssemblyReference.cache
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/DMOpMVv3_vWilzf__AriKfjLRQdfqQfjlnkMQqzjXpQ=.hash
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/gH0m8gkIzN7FH_dLD3fGwZzUQMc9ccfs1SJvHjERyok=.hash
-/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/l_VgY7usihEXKGD5EHZib12e83uZC984y58JGDyDJdQ=.hash
+/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/Gt5gtbp0VYhkUkmi2BHQT3WD4JFsI_fxpzGQzwl_yOE=.hash
+/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/96kvTLoxUMm1l7HARhaONSrH8TEDsfztHMqIPMqkLr8=.hash
+/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/Debug/netstandard2.1/integrity/vt4V5AovMra4fO396gYRKE7FZwYrkmdFPHISrKYsmR4=.hash

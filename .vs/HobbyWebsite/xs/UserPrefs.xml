@@ -1,8 +1,16 @@
 ﻿<Properties StartupConfiguration="{4F305758-F8F9-499F-B3B2-4A5E9C2DAEAB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/ScoreSheetComponent.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/Index.razor">
     <Files>
-      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor.cs" Line="16" Column="32" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor" Line="4" Column="6" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor.cs" Line="124" Column="31" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor" Line="23" Column="1" />
+      <File FileName="HobbyWebsite/Program.cs" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/_Imports.razor" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/App.razor" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/wwwroot/index.html" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Shared/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="HobbyWebsite/Pages/Index.razor" Line="3" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +18,7 @@
           <Node name="HobbyWebsite" expanded="True">
             <Node name="HobbyWebsite" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="ScoreSheetComponent.razor" expanded="True" selected="True" />
+                <Node name="ScoreSheetComponent.razor" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Shared" expanded="True" />
