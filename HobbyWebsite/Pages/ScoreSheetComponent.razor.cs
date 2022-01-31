@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using HobbyWebsite.Models;
 using System.Linq;
+using MudBlazor;
 
 namespace HobbyWebsite.Pages
 {
@@ -84,6 +85,18 @@ namespace HobbyWebsite.Pages
         private async Task Focus(string elementId)
         {
             await JSRuntime.InvokeVoidAsync("jsfunction.focusElement", elementId);
+        }
+
+        private async Task OpenDialogAsync()
+        {
+            var options = new DialogOptions();
+            var dialog = DialogService.Show<DeleteDialog>("Confirmation", options);
+            var result = await dialog.Result;
+
+            if (!result.Cancelled)
+            {
+                await ClearAsync();
+            }
         }
 
         private async Task Read()

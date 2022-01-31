@@ -1,27 +1,21 @@
 ﻿<Properties StartupConfiguration="{4F305758-F8F9-499F-B3B2-4A5E9C2DAEAB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Models/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/ScoreSheetComponent.razor">
     <Files>
-      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor.cs" Line="101" Column="14" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheet.razor" Line="46" Column="52" />
-      <File FileName="HobbyWebsite/wwwroot/css/app.css" Line="164" Column="2" />
-      <File FileName="HobbyWebsite/Models/Player.cs" Line="8" Column="23" />
+      <File FileName="HobbyWebsite/Pages/DeleteDialog.razor" Line="13" Column="44" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor" Line="56" Column="88" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor.cs" Line="66" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HobbyWebsite" expanded="True">
             <Node name="HobbyWebsite" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="Player.cs" selected="True" />
-              </Node>
               <Node name="Pages" expanded="True">
-                <Node name="ScoreSheet.razor" expanded="True" />
+                <Node name="ScoreSheetComponent.razor" expanded="True" selected="True" />
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Shared" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -29,7 +23,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HobbyWebsite PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.HobbyWebsite PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
