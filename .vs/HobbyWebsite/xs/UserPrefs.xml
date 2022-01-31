@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{4F305758-F8F9-499F-B3B2-4A5E9C2DAEAB}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="HobbyWebsite/Pages/ScoreSheetComponent.razor">
     <Files>
-      <File FileName="HobbyWebsite/Pages/DeleteDialog.razor" Line="13" Column="44" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor" Line="56" Column="88" />
-      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor.cs" Line="66" Column="1" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor.cs" Line="16" Column="32" />
+      <File FileName="HobbyWebsite/Pages/ScoreSheetComponent.razor" Line="4" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

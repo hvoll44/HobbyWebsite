@@ -13,6 +13,8 @@ namespace HobbyWebsite.Pages
     {
         private List<Player> _players = new List<Player>();
         private int _rounds;
+        private bool _editMode;
+        private string _editButtonText = "Edit";
 
         [Parameter]
         public int Players { get; set; } = 3;
@@ -113,6 +115,13 @@ namespace HobbyWebsite.Pages
         {
             var json = JsonSerializer.Serialize(_players);
             await JSRuntime.InvokeVoidAsync("localStorage.setItem", "players", json);
+        }
+
+        private void ToggleEditMode()
+        {
+            _editMode = !_editMode;
+            _editButtonText = _editMode ? "Done" : "Edit";
+            StateHasChanged();
         }
     }
 }

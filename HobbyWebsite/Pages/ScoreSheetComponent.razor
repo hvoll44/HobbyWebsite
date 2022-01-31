@@ -1,6 +1,22 @@
 ﻿@inject IJSRuntime JSRuntime
 @inject IDialogService DialogService
 
+<div class="buttons">
+    <MudButton OnClick="ToggleEditMode"
+               Variant="Variant.Filled">
+        @_editButtonText
+    </MudButton>
+    @if (_editMode)
+    {
+        <button class="btn btn-primary" @onclick="AddPlayerAsync">Add Player</button>
+        <button class="btn btn-secondary" @onclick="AddRoundAsync">Add Round</button>
+        <MudButton @onclick="OpenDialogAsync"
+                   Variant="Variant.Filled"
+                   Color="Color.Error">
+            Clear
+        </MudButton>
+    }
+</div>
 <table>
     <thead>
         <tr>
@@ -19,7 +35,10 @@
             <tr>
                 <td>
                     <div class="inline-button">
-                        <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(playerIndex)"></span>
+                        @if (_editMode)
+                        {
+                            <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(playerIndex)"></span>
+                        }
                         <div class="player-cell">
                             <div>
                                 <input @bind="@_players[playerIndex].Name"
@@ -50,12 +69,3 @@
         }
     </tbody>
 </table>
-<div class="buttons">
-    <button class="btn btn-primary" @onclick="AddPlayerAsync">Add Player</button>
-    <button class="btn btn-secondary" @onclick="AddRoundAsync">Add Round</button>
-    <MudButton @onclick="OpenDialogAsync"
-               Variant="Variant.Filled"
-               Color="Color.Error">
-        Clear
-    </MudButton>
-</div>
