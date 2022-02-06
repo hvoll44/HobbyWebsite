@@ -1,17 +1,16 @@
 ﻿@inherits LayoutComponentBase
-    <MudThemeProvider />
-    <MudDialogProvider />
-    <MudSnackbarProvider />
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
 
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
-    <div class="main">
-        <div class="top-row px-4">
-            <div>Azure Static Web App by Hans Voll</div>
-        </div>
-        <div class="content px-4">
-            @Body
+<div class="main">
+    <div class="top-row px-4">
+        <div class="header-info">
+            <div class="header-info_title">Scorecard</div>
+            <div class="header-info_subtitle">Azure Static Web App by Hans Voll</div>
         </div>
     </div>
+    <div class="px-2">
+        @Body
+    </div>
+</div>

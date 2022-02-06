@@ -13,8 +13,7 @@ namespace HobbyWebsite.Pages
     {
         private List<Player> _players = new List<Player>();
         private int _rounds;
-        private bool _editMode;
-        private string _editButtonText = "Edit";
+        private bool _showControls = true;
 
         [Parameter]
         public int Players { get; set; } = 3;
@@ -84,15 +83,10 @@ namespace HobbyWebsite.Pages
             await Save();
         }
 
-        private async Task Focus(string elementId)
-        {
-            await JSRuntime.InvokeVoidAsync("jsfunction.focusElement", elementId);
-        }
-
         private async Task OpenDialogAsync()
         {
             var options = new DialogOptions();
-            var dialog = DialogService.Show<DeleteDialog>("Confirmation", options);
+            var dialog = DialogService.Show<DeleteDialog>("Clear All", options);
             var result = await dialog.Result;
 
             if (!result.Cancelled)
@@ -119,8 +113,7 @@ namespace HobbyWebsite.Pages
 
         private void ToggleEditMode()
         {
-            _editMode = !_editMode;
-            _editButtonText = _editMode ? "Done" : "Edit";
+            _showControls = !_showControls;
             StateHasChanged();
         }
     }

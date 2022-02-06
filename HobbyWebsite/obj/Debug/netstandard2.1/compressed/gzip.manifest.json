@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/Gt5gtbp0VYhkUkmi2BHQT3WD4JFsI_fxpzGQzwl_yOE=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/yUWOTFHhA5Y9KPBaTMbGrTGdrVxK4d_Gcp8nkzQyL6k=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/HobbyWebsite.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/HobbyWebsite.dll.gz"
     },
@@ -156,54 +156,9 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/AV8hgKJvxEXM5wtB0rWrbSVD_jqppNW1JXqLoZhO794=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/PnKO7lUOW7f4kozb_ZYmBIuHDJnrwSZKrFWmCL15nHk=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Forms.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.ComponentModel.Annotations.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.ComponentModel.Annotations.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.ComponentModel.DataAnnotations.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/A1FNAHZltX6j1uITGR2AmpE0HH1_iAQhYiPy8WEs6_A=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/-vKsvGE9k1NEQ-ksgwI4AdJfiIvMV-JffMAY2-Jumd8=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
-    },
-    {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/YVKMyH3AN_9RSb6NRRz7JNpG-bR_qYX2hqVAouLpfz4=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/1Rqd7BapHPkifxDlU4kVDxfE4_MBVhZpkzE-kBTSK3M=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/MudBlazor.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/MudBlazor.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
-    },
-    {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/5F0XIdZVF9ZMfT2b4KdHsZIFfZ9VFwKhjz3Ko4VY6aQ=.hash",
-      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
@@ -214,6 +169,11 @@
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/UB78QWNHi5M3Bf37iSAdQKoqFSV97_cVnVgSyeyAWao=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/5F0XIdZVF9ZMfT2b4KdHsZIFfZ9VFwKhjz3Ko4VY6aQ=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/n0Ag7rF7ZQamklPSZkakIXkRoa6JwlmPSS0cRaAhJQM=.hash",
@@ -261,12 +221,52 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.gz"
     },
     {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/-vKsvGE9k1NEQ-ksgwI4AdJfiIvMV-JffMAY2-Jumd8=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/eGESyy9mRu8RcCGajAu4E8nxSmeB5nxiZkFPVaZ5Vl0=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Options.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
+    },
+    {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/96kvTLoxUMm1l7HARhaONSrH8TEDsfztHMqIPMqkLr8=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/AV8hgKJvxEXM5wtB0rWrbSVD_jqppNW1JXqLoZhO794=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/PnKO7lUOW7f4kozb_ZYmBIuHDJnrwSZKrFWmCL15nHk=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.ComponentModel.Annotations.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.ComponentModel.Annotations.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/A1FNAHZltX6j1uITGR2AmpE0HH1_iAQhYiPy8WEs6_A=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/1Rqd7BapHPkifxDlU4kVDxfE4_MBVhZpkzE-kBTSK3M=.hash",
+      "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/MudBlazor.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/MudBlazor.dll.gz"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/eR75VrYDaCNmG5rGkrG3vJhDar9uVnwyUfGUrsRmDG0=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/HobbyWebsite.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/HobbyWebsite.pdb.gz"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/vt4V5AovMra4fO396gYRKE7FZwYrkmdFPHISrKYsmR4=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/tCzUGPGEjMnnzxccuUEp87fzHddjfaY1xBx3Whfjj-c=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.gz"
     }

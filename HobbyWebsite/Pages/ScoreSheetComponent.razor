@@ -3,18 +3,13 @@
 
 <div class="buttons">
     <MudButton OnClick="ToggleEditMode"
-               Variant="Variant.Filled">
-        @_editButtonText
-    </MudButton>
-    @if (_editMode)
+               Variant="Variant.Filled"
+               StartIcon="@Icons.Material.Filled.Menu" />
+    @if (_showControls)
     {
-        <button class="btn btn-primary" @onclick="AddPlayerAsync">Add Player</button>
-        <button class="btn btn-secondary" @onclick="AddRoundAsync">Add Round</button>
-        <MudButton @onclick="OpenDialogAsync"
-                   Variant="Variant.Filled"
-                   Color="Color.Error">
-            Clear
-        </MudButton>
+        <MudButton @onclick="AddPlayerAsync" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.PersonAdd" Color="Color.Primary">Add Player</MudButton>
+        <MudButton @onclick="AddRoundAsync" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.AddBox" Color="Color.Secondary">Add Round</MudButton>
+        <MudButton @onclick="OpenDialogAsync" Variant="Variant.Filled" StartIcon="@Icons.Material.Filled.Delete" Color="Color.Error">Clear</MudButton>
     }
 </div>
 <table>
@@ -35,18 +30,19 @@
             <tr>
                 <td>
                     <div class="inline-button">
-                        @if (_editMode)
+                        @if (_showControls)
                         {
                             <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(playerIndex)"></span>
                         }
                         <div class="player-cell">
-                            <div>
-                                <input @bind="@_players[playerIndex].Name"
-                                       @bind:event="oninput"
-                                       @onchange="OnChangedAsync"
-                                       class="player"
-                                       id="@(playerIndex + 1)" />
-                            </div>
+                            <MudTextField @bind-Value="_players[playerIndex].Name"
+                                          Placeholder="Player"
+                                          Margin="Margin.Dense"
+                                          Variant="Variant.Outlined"
+                                          Clearable="true"
+                                          OnBlur="OnChangedAsync"
+                                          class="player"
+                                          id="@(playerIndex + 1)" />
                             <div class="subtext">
                                 Total: @_players[playerIndex].Scores.Sum()
                             </div>
