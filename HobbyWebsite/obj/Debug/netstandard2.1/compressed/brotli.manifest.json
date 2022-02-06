@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/yUWOTFHhA5Y9KPBaTMbGrTGdrVxK4d_Gcp8nkzQyL6k=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/9Fsjvgo9hQHnx8apWTQzdsW35_gB_iO_LL83c7eeS-g=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/HobbyWebsite.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/HobbyWebsite.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/MudBlazor.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/eR75VrYDaCNmG5rGkrG3vJhDar9uVnwyUfGUrsRmDG0=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/VU35wJa9joB5CJUQlfTvikF4ErTF4MYsyKG0_v5-PI0=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/HobbyWebsite.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/HobbyWebsite.pdb.br"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/tCzUGPGEjMnnzxccuUEp87fzHddjfaY1xBx3Whfjj-c=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/XEkR5BrDAjfu47aG5aFS_hvXHNZS5usyd_T4FrW-onY=.hash",
       "Source": "\/Users\/hansvoll\/Desktop\/HobbyWebsite\/HobbyWebsite\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     }

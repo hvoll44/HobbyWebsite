@@ -183,7 +183,7 @@ th {
 }
 
 .score-cell {
-    width: 2.5rem;
+    padding: 0;
 }
 
 .buttons {
