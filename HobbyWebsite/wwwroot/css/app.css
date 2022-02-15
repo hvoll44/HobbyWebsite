@@ -174,7 +174,7 @@ th {
 
 .player {
     width: 6.5rem;
-    border: none;
+    margin-top: 1rem;
 }
 
 .subtext {
@@ -183,7 +183,7 @@ th {
 }
 
 .score-cell {
-    padding: 0;
+    width: 2.5rem;
 }
 
 .buttons {

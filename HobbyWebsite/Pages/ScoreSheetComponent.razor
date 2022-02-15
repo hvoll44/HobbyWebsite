@@ -13,48 +13,52 @@
     }
 </div>
 
-<MudTable Items="@_players">
-    <HeaderContent>
-        <MudTh Class="header"></MudTh>
-        @for (int round = 1; round <= _rounds; round++)
+<table>
+    <thead>
+        <tr>
+            <th class="header"></th>
+            @for (int round = 1; round <= _rounds; round++)
+            {
+                <th>@round</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @for (int p = 0; p < _players.Count; p++)
         {
-            var roundIndex = round;
+            var playerIndex = p;
 
-            <MudTh>@roundIndex</MudTh>
-        }
-    </HeaderContent>
-    <RowTemplate>
-        <MudTd>
-            <div class="inline-button">
-                @if (_showControls)
-                {
-                    <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(_players.IndexOf(context))"></span>
-                }
-                <div class="player-cell">
-                    <MudTextField @bind-Value="context.Name"
-                                  Placeholder="Player"
-                                  Margin="Margin.Dense"
-                                  Variant="Variant.Outlined"
-                                  OnBlur="OnChangedAsync"
-                                  Class="player"
-                                  id="@(_players.IndexOf(context) + 1)" />
-                    <div class="subtext">
-                        Total: @context.Scores.Sum()
+            <tr>
+                <td>
+                    <div class="inline-button">
+                        <span class="oi oi-circle-x delete-icon" @onclick="() => DeletePlayer(playerIndex)"></span>
+                        <div class="player-cell">
+                            <div>
+                                <input @bind="@_players[playerIndex].Name"
+                                       @bind:event="oninput"
+                                       @onchange="OnChangedAsync"
+                                       class="player"
+                                       id="@(playerIndex + 1)" />
+                            </div>
+                            <div class="subtext">
+                                Total: @_players[playerIndex].Scores.Sum()
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </MudTd>
-        @for (int s = 0; s < context.Scores.Count; s++)
-        {
-            var scoreIndex = s; //variable needed to reference correct index value
+                </td>
 
-            <MudTd>
-                <MudTextField @bind-Value="context.Scores[scoreIndex]"
-                              OnBlur="OnChangedAsync"
-                              Variant="Variant.Outlined"
-                              Margin="Margin.Dense"
-                              Class="score-cell" />
-            </MudTd>
+                @for (int s = 0; s < _players[playerIndex].Scores.Count; s++)
+                {
+                    var scoreIndex = s;
+
+                    <td>
+                        <input @bind="@_players[playerIndex].Scores[scoreIndex]"
+                               @bind:event="oninput"
+                               @onchange="OnChangedAsync"
+                               class="score-cell"/>
+                    </td>
+                }
+            </tr>
         }
-    </RowTemplate>
-</MudTable>
+    </tbody>
+</table>

@@ -1799,24 +1799,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/hansvoll/.nuget/packages/": {}
+    "C:\\Users\\hvoll\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/HobbyWebsite.csproj",
+      "projectUniqueName": "C:\\Users\\hvoll\\Desktop\\HobbyWebsite\\HobbyWebsite\\HobbyWebsite.csproj",
       "projectName": "HobbyWebsite",
-      "projectPath": "/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/HobbyWebsite.csproj",
-      "packagesPath": "/Users/hansvoll/.nuget/packages/",
-      "outputPath": "/Users/hansvoll/Desktop/HobbyWebsite/HobbyWebsite/obj/",
+      "projectPath": "C:\\Users\\hvoll\\Desktop\\HobbyWebsite\\HobbyWebsite\\HobbyWebsite.csproj",
+      "packagesPath": "C:\\Users\\hvoll\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hvoll\\Desktop\\HobbyWebsite\\HobbyWebsite\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/hansvoll/.config/NuGet/NuGet.Config"
+        "C:\\Users\\hvoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1877,7 +1885,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
