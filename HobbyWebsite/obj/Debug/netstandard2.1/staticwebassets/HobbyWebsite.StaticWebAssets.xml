@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\hvoll\Desktop\HobbyWebsite\HobbyWebsite\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\hvoll\source\repos\Azure\HobbyWebsite\HobbyWebsite\bin\Debug\netstandard2.1\wwwroot\" />
   <ContentRoot BasePath="_content/MudBlazor" Path="C:\Users\hvoll\.nuget\packages\mudblazor\2.0.0\build\..\staticwebassets\" />
 </StaticWebAssets>
