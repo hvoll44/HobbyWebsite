@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ldi25B6/WXyX+HXEJMvDPb+gGXei1QqUt/56SCc3VHRp3MVuTBkZnMmRSyyDj/AgLSEUhCW24kakbm5/Iv8eJQ==",
+  "dgSpecHash": "T6MZDpGCMfWb9w+Mlj0NLmG81X3oF3lomCH2p1HH0APqvkt30//HeiVD/xn/p62IBvCHxeSBuesSqITcrq7ZRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hvoll\\Desktop\\HobbyWebsite\\HobbyWebsite\\HobbyWebsite.csproj",
+  "projectFilePath": "C:\\Users\\hvoll\\source\\repos\\Azure\\HobbyWebsite\\HobbyWebsite\\HobbyWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hvoll\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.8\\microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
     "C:\\Users\\hvoll\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.8\\microsoft.aspnetcore.components.3.1.8.nupkg.sha512",
