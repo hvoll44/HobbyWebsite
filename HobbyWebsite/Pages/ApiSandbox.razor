@@ -1,0 +1,15 @@
+﻿<h3>ApiSandbox</h3>
+<p>Info: @ApiInfo</p>
+<MudButton OnClick="GetData">Api Data</MudButton>
+@inject HttpClient Http
+
+@code {
+    public string ApiInfo { get; set; }
+
+    protected async Task GetData()
+    {
+        var result = await Http.GetAsync("https://myapihrv.azurewebsites.net/api/todo");
+
+        ApiInfo = result.Content.ToString();
+    }
+}
