@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\aCRJycjkJMLjQlLndqqU458CgcJLxsKU8tyUzPTFWdU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DynizH6XQ96jiaQLoe7tFU-05B3k2aBgPFSq_bujuCU=.hash",
       "Source": "C:\\Users\\hvoll\\source\\repos\\Azure\\HobbyWebsite\\HobbyWebsite\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\HobbyWebsite.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/HobbyWebsite.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RKNK5piGkMlO8koW8TwRCtN4zLGJSJxwn6aNL1I9X0Q=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xPJfhyH-a0Rc5wNWdhzjnG7BmZum2U3LDrdPes6CmU8=.hash",
       "Source": "C:\\Users\\hvoll\\source\\repos\\Azure\\HobbyWebsite\\HobbyWebsite\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\HobbyWebsite.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/HobbyWebsite.pdb.br"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4xMONDNiuC5sRPi7udSeipIktdRkZyStTTgAhzwqD2E=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6bxuREzCE_whSX-ftlemsAEkCHXkQA1RuzvEDdIAS3M=.hash",
       "Source": "C:\\Users\\hvoll\\source\\repos\\Azure\\HobbyWebsite\\HobbyWebsite\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

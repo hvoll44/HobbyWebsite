@@ -96,9 +96,9 @@ using MudBlazor;
 
     protected async Task GetData()
     {
-        var result = await Http.GetAsync("https://myapihrv.azurewebsites.net/api/todo");
+        var result = await Http.GetAsync("https://myapihrv.azurewebsites.net/api/sandbox");
 
-        ApiInfo = result.Content.ToString();
+        ApiInfo = result.Content.ReadAsStringAsync().Result;
     }
 
 #line default
